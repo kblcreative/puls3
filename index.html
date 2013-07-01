@@ -7,8 +7,9 @@
            <meta name="viewport" content="width=device-width" />
                    
            <link href="css/estilos.css" rel="stylesheet">
+           <link href="css/normalize.css" rel="stylesheet">
            
-           <script src="modernizr.js"></script>
+           <script src="js/modernizr.js"></script>
            <script src="js/main.js"></script>
 
            <title>Puls3</title>
@@ -23,7 +24,18 @@
 <div id="titulo_nav">
 <h1>Réplica de Puls3</h1>
 <nav>
-<a href="#">Inicio</a>
+	<ul id="nav">
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">página 1</a>
+			<ul>
+				<li><a href="#">sub-página 1</a>
+				<li><a href="#">sub-página 2</a>		
+			</ul>
+		</li>
+		<li><a href="#">página 2</a></li>
+		<li><a href="#">página 3</a></li>
+		<li><a href="#">página 4</a></li>
+	</ul>
 </nav>
 </div>
 
