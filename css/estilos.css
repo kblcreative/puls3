@@ -23,7 +23,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-bottom: 4px solid #4C9CF1;
+	border-bottom: 1px solid #4C9CF1;
 	z-index: 100;
 }
 header figure #logo img { width:100% }
@@ -45,15 +45,31 @@ header #avatar {
 	width: 3%; 
 }
 
+/*Animación*/
+header #ex3 a {
+	line-height: 0px;
+	color:transparent;
+	font-size: 10px;
+	font-style:normal;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+header #ex3 a:hover {
+	line-height: 4em;
+	color: #575858;
+}
+
 nav {
 	display:inline-block;
 	float:right;
 }
 #menu-icon {
+	border-radius: 4px 4px 0 0;
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(images/menu-icon.png) center;
+	background: #4C8FEC url(../images/menu-icon.png) center;
 }
 a:hover#menu-icon {
 	background-color: #444;
@@ -94,6 +110,8 @@ header {
 }
 #menu-icon {
 	display: inline-block;
+	top:40px;
+	position:fixed;
 }
 nav ul, nav:active ul {
 	display: none;
@@ -115,3 +133,17 @@ nav li {
 nav:hover ul {
 	display: block;
 }
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
