@@ -27,7 +27,7 @@ header {
 	z-index: 100;
 }
 header figure #logo img { width:100% }
-header figure #avatar img { border-radius: 6px; border: solid thin #d4d4d4; }
+header #avatar img { border-radius: 6px; border: solid thin #d4d4d4; }
 header figure img { width: 100%; }
 header #avatar, header #logo, header #titulo_nav {
 	display: inline-block;
@@ -47,7 +47,7 @@ header #avatar {
 
 /*Animación*/
 header #ex3 a {
-	line-height: 0px;
+	line-height:0px;
 	color:transparent;
 	font-size: 10px;
 	font-style:normal;
@@ -59,10 +59,19 @@ header #ex3 a:hover {
 	line-height: 4em;
 	color: #575858;
 }
+header #ex3 p {
+	position:absolute;
+	float:right;
+	top:14px;
+	right:70px;
+	font-size:15px;
+	font-style:normal;
+}
 
 nav {
 	display:inline-block;
 	float:right;
+	margin-right:150px;
 }
 #menu-icon {
 	border-radius: 4px 4px 0 0;
